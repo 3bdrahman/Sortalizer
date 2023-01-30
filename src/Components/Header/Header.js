@@ -9,13 +9,13 @@ const Header = () => {
 			</div>
 			<div className='header-right'>
 				<select>
-					<option value='' disabled>
+					<option value='' disabled selected hidden>
 						Algorithm
 					</option>
 					<option value='option2'>Option 2</option>
 				</select>
 				<select>
-					<option value='' disabled>
+					<option value='' disabled selected hidden>
 						Size
 					</option>
 					<option value='option2'>Option 2</option>

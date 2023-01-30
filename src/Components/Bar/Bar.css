@@ -1,0 +1,29 @@
+.Bar {
+  background-color: #fff;
+  color: #3A3A3C;
+  display: flex;
+  flex-direction: column reverse;
+  align-items: flex-end;
+  transition: 125ms ease-in-out;
+}
+.text{
+    margin: 0 auto .25rem;
+}
+.Bar_sorted{
+    background-color: #2A9D8F;
+}
+.Bar_stateD {
+    background-color: #0066FF;
+}
+
+.Bar_stateC {
+    background-color: #e63946;
+}
+
+.Bar_stateB {
+    background-color: #BA2D65;
+}
+
+.Bar_stateA {
+    background-color: #FFD54F;
+}
