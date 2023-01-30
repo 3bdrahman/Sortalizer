@@ -1,0 +1,50 @@
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  font-size: x-large;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+select {
+  font-size: 16px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.toggle-label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.toggle {
+  margin-right: 10px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
