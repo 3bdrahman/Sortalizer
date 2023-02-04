@@ -1,0 +1,51 @@
+.Button {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    height: 40px;
+    user-select: none;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.Button:hover{
+    cursor: pointer;
+}
+.Button:disabled{
+    cursor: default;
+}
+.Button_Icon{
+    margin-right: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    vertical-align: top;
+}
+.Button_uppercase{
+    text-transform: uppercase;
+}
+.Button_dense{
+    height: 35px;
+    font-size: 0.8rem;
+}
+.Button_raised{
+    color: white;
+    position: relative;
+    background-color: #F4A261;
+}
+.Button_raised:hover{
+    z-index: 3;
+    background-color: #E76F51;
+}
+.Button_outlined{
+    border: 1px solid;
+
+}
+.Button_unelevated,
+.Button_unelevated:hover,
+.Button_unelevated:focus,
+.Button_unelevated:active {
+    box-shadow: none;
+}
